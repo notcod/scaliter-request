@@ -2,12 +2,13 @@
 
 namespace Scaliter;
 
-use \Response as Response;
+use Scaliter\Response as Response;
 
 class Request
 {
 
     public static $query, $request, $cookie, $file, $server, $env;
+    public static array $db;
     public static $url, $json, $root;
     public $value, $key;
 
